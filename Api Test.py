@@ -4,4 +4,5 @@ import json
 
 
 resp = requests.get("https://reqres.in/api/users?page=2")
-pprint(resp.json())
+#pprint(resp.json())
+print(resp.status_code)
