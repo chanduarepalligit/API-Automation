@@ -11,3 +11,4 @@ if resp_code == 200:
     print("Response fetched")
 else:
     print("Failed to fetch response")
+pprint(resp.content)
